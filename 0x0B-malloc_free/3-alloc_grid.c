@@ -8,9 +8,7 @@
  * Return: If successful, a pointer to the newly allocated grid
  */
 
-int **alloc_grid(int width, int height);
-
-/* function code here */
+int **alloc_grid(int width, int height)
 
 {
 	int i, j, k, l;
