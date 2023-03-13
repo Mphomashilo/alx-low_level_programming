@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * alloc_grind - creates a two-dimensional array of integers
+ * alloc_grid - creates a two-dimensional array of integers
  * @width: the width of the grid
  * @height: the height of the grid
  * Return: If successful, a pointer to the newly allocated grid
