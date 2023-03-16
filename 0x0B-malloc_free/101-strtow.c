@@ -31,8 +31,6 @@ return (len);
  */
 
 int count_words(char *str)
-{
-
 int index = 0, words = 0, len = 0;
 
 for (index = 0; *(str + index); index++)
@@ -47,6 +45,7 @@ index += word_len(str + index);
 }
 }
 return (words);
+}
 
 /**
  * strtow - splits a string into words
@@ -55,7 +54,6 @@ return (words);
  */
 
 char **strtow(char *str)
-
 {
 char **strings;
 int index = 0, words, w, letters, l;
